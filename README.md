@@ -58,6 +58,17 @@ When devoloping locally you can start all queues at once:
 
 The worker will process queues as listed in production environment all queues should be run separately for performance reasons.
 
+### Front-end
+
+- Install all packages by running
+
+    ```npm install```
+
+- Start a dev server
+
+    ```npm run dev```
+
+
 ## App Settings/Info
 
 Each registered user has a unique app id, which must always be passed as part of a submission. There are also several other hidden submission input which alters the behavior.
