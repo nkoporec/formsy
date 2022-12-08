@@ -1,0 +1,29 @@
+#sidebar {
+    transition: ease-in-out all 0.3s;
+    z-index: 9999;
+
+    span {
+        opacity: 0;
+        position: absolute;
+        transition: ease-in-out all 0.1s;
+    }
+
+    .nav a.active {
+        border-bottom: 1px solid;
+        border-color: $formsy-purple;
+    }
+
+    &:hover {
+        width: 150px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    .nav a:hover {
+        border-right: 0.2rem solid;
+        border-color: $formsy-dark;
+    }
+
+    &:hover span {
+        opacity: 1;
+    }
+}

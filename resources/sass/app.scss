@@ -1,0 +1,34 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Icons.
+@import url("https://unpkg.com/css.gg/icons/all.css");
+
+// Variables
+@import "variables";
+
+// Tailwind
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Global.
+@import "global";
+@import "./typography/fonts";
+@import "./typography/icons";
+@import "./tailwind/helpers";
+
+// Elements.
+@import "./elements/button.scss";
+@import "./elements/datepicker.scss";
+@import "./elements/tabs.scss";
+@import "./elements/accordion.scss";
+@import "./elements/modal.scss";
+@import "./elements/spinner.scss";
+
+// Components.
+@import "./components/sidebar.scss";
+@import "./components/header.scss";
+@import "./components/pagination.scss";
+
+// Pages.

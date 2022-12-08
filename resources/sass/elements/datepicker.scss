@@ -1,0 +1,13 @@
+.vdp-datepicker {
+    .vdp-datepicker__calendar {
+        position: fixed;
+    }
+
+    .vdp-datepicker__clear-button {
+        position: absolute;
+        right: 0.8rem;
+        font-size: 1.2rem;
+        top: 5px;
+        color: $formsy-purple;
+    }
+}

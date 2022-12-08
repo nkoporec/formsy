@@ -1,0 +1,11 @@
+.pagination {
+    li {
+        padding: 0.5rem;
+        display: inline-block;
+    }
+
+    li.active {
+        color: #4a5568;
+        font-weight: bold;
+    }
+}
